@@ -1,0 +1,48 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://DOMAIN.com/",
+      "https://www.iana.org/assignments/link-relations/service-doc": [
+        {
+          "href": "https://DOMAIN.com/faq/"
+        }
+      ],
+      "title": "Nicotine Free Vapes Australia — Premium Zero-Nicotine Vaporizers & Botanical Flavor Experiences in Australia"
+    },
+    {
+      "anchor": "https://DOMAIN.com/shop/",
+      "type": "text/html",
+      "title": "Nicotine Free Vapes Australia Product Catalog"
+    },
+    {
+      "anchor": "https://DOMAIN.com/wholesale/",
+      "type": "text/html",
+      "title": "Nicotine Free Vapes Australia Wholesale"
+    },
+    {
+      "anchor": "https://DOMAIN.com/api/products",
+      "type": "application/json",
+      "title": "Nicotine Free Vapes Australia Products API"
+    },
+    {
+      "anchor": "https://DOMAIN.com/api/categories",
+      "type": "application/json",
+      "title": "Nicotine Free Vapes Australia Categories API"
+    },
+    {
+      "anchor": "https://DOMAIN.com/api/search",
+      "type": "application/json",
+      "title": "Nicotine Free Vapes Australia Search API"
+    },
+    {
+      "anchor": "https://DOMAIN.com/api/mcp",
+      "type": "application/json",
+      "https://www.iana.org/assignments/link-relations/service-desc": [
+        {
+          "href": "https://DOMAIN.com/.well-known/mcp/server-card.json"
+        }
+      ],
+      "title": "Nicotine Free Vapes Australia MCP Server"
+    }
+  ]
+}

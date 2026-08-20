@@ -1,0 +1,121 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.json",
+  "serverInfo": {
+    "name": "Nicotine Free Vapes Australia",
+    "version": "1.0.0",
+    "description": "Nicotine Free Vapes Australia is the premier dedicated Australian boutique supplying lab-verified 0mg zero-nicotine disposable vaporizers, authentic Uwell and refillable pod devices, replacement coils, and pure botanical e-liquids with swift express dispatch across all states.",
+    "homepage": "https://DOMAIN.com",
+    "contact": {
+      "email": "support@DOMAIN.com",
+      "whatsapp": "+61 400 000 000"
+    }
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://DOMAIN.com/api/mcp"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "search_products",
+        "description": "Search products by keyword, category, or max_price",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "max_price": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      {
+        "name": "get_product",
+        "description": "Get full product details by slug",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "slug"
+          ],
+          "properties": {
+            "slug": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      {
+        "name": "list_categories",
+        "description": "List all product categories and subcategories",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "get_policies",
+        "description": "Get shipping, payment, returns, and min order policies",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "create_order_draft",
+        "description": "Create prefilled order URL for WhatsApp or order form. Human completes — never captures payment.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array"
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    ],
+    "resources": [
+      {
+        "name": "product-catalog",
+        "description": "Full product catalog",
+        "uri": "https://DOMAIN.com/shop/"
+      },
+      {
+        "name": "wholesale",
+        "description": "Wholesale pricing & application",
+        "uri": "https://DOMAIN.com/wholesale/"
+      },
+      {
+        "name": "blog",
+        "description": "Educational guides & device reviews",
+        "uri": "https://DOMAIN.com/blog/"
+      }
+    ],
+    "commerce": {
+      "ordering": "human-assisted-whatsapp-or-form",
+      "payment": [
+        "bank-transfer",
+        "crypto-BTC",
+        "crypto-USDT",
+        "payid",
+        "gift-cards"
+      ],
+      "currency": "AUD",
+      "minimumOrder": 200,
+      "freeShipping": "Free express shipping on all orders",
+      "cryptoDiscount": "10%"
+    }
+  },
+  "legal": {
+    "ageRestriction": "Adults only",
+    "productType": "100% Zero-Nicotine Vaporizers & Botanical Blends",
+    "compliance": "All items are 0mg nicotine free. For adult lifestyle use."
+  }
+}

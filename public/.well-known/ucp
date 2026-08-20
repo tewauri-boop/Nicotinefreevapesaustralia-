@@ -1,0 +1,66 @@
+{
+  "ucp": "1.0",
+  "protocol_version": "1.0",
+  "spec": "https://ucp.dev/specification/overview/",
+  "schema": "https://ucp.dev/schema/v1.json",
+  "site": "https://DOMAIN.com",
+  "name": "Nicotine Free Vapes Australia",
+  "description": "Nicotine Free Vapes Australia is the premier dedicated Australian boutique supplying lab-verified 0mg zero-nicotine disposable vaporizers, authentic Uwell and refillable pod devices, replacement coils, and pure botanical e-liquids with swift express dispatch across all states.",
+  "services": [
+    {
+      "id": "product-catalog",
+      "type": "catalog",
+      "url": "https://DOMAIN.com/shop/",
+      "description": "Full 0mg product catalog"
+    },
+    {
+      "id": "mcp-server",
+      "type": "mcp",
+      "url": "https://DOMAIN.com/api/mcp",
+      "description": "MCP Streamable HTTP server"
+    },
+    {
+      "id": "order",
+      "type": "commerce",
+      "url": "https://wa.me/61400000000",
+      "description": "Place orders via WhatsApp"
+    },
+    {
+      "id": "wholesale",
+      "type": "b2b",
+      "url": "https://DOMAIN.com/wholesale/",
+      "description": "Wholesale pricing and bulk ordering"
+    }
+  ],
+  "capabilities": [
+    "browse",
+    "search",
+    "inquiry",
+    "wholesale",
+    "content",
+    "mcp"
+  ],
+  "endpoints": {
+    "mcp": "https://DOMAIN.com/api/mcp",
+    "catalog": "https://DOMAIN.com/shop/",
+    "contact": "https://DOMAIN.com/contact/",
+    "agent_skills": "https://DOMAIN.com/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://DOMAIN.com/.well-known/mcp/server-card.json",
+    "api_catalog": "https://DOMAIN.com/.well-known/api-catalog",
+    "llms_txt": "https://DOMAIN.com/llms.txt"
+  },
+  "currency": "AUD",
+  "minimum_order_usd": 200,
+  "payment_methods": [
+    "bank-transfer",
+    "crypto-BTC",
+    "crypto-USDT",
+    "payid",
+    "gift-cards"
+  ],
+  "legal": {
+    "age_restriction": "Adults only",
+    "product_type": "0mg Zero-Nicotine Vaporizers",
+    "compliance": "All formulas 100% nicotine-free"
+  }
+}

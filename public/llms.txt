@@ -1,0 +1,41 @@
+# Nicotine Free Vapes Australia
+
+> Premium Zero-Nicotine Vaporizers & Botanical Flavor Experiences in Australia
+
+Nicotine Free Vapes Australia is the premier dedicated Australian boutique supplying lab-verified 0mg zero-nicotine disposable vaporizers, authentic Uwell and refillable pod devices, replacement coils, and pure botanical e-liquids with swift express dispatch across all states.
+
+## Business Overview
+- Brand Name: Nicotine Free Vapes Australia
+- Headquarters: Sydney, NSW, Australia
+- Country of Operation: Australia
+- Currency: AUD
+- Minimum Order Amount: $200 AUD
+- Shipping: Free express shipping on all orders across Australia
+- Cryptocurrency Settlement: 10% instant discount on BTC and USDT payments
+- Payment Methods: Direct Bank Transfer (EFT), PayID/Osko, Cryptocurrency (BTC, USDT), Digital Gift Cards
+- Contact Desk: Email support@DOMAIN.com | WhatsApp +61 400 000 000 | Phone +61 2 8000 0000
+
+## Product Catalog & Categories
+- [0mg Disposable Vapes](https://DOMAIN.com/shop/disposable-vapes/): Pre-filled, zero-nicotine disposable vaporizers delivering pure botanical flavors, smooth clouds, and up to 10,000 puffs.
+- [Refillable Pod Systems](https://DOMAIN.com/shop/refillable-pod-systems/): Ultra-portable and refillable pod kits from industry-leading brands like Uwell, optimized for smooth 0mg nicotine-free vaping.
+- [Vape Coils & Hardware](https://DOMAIN.com/shop/vape-coils-accessories/): Authentic replacement mesh coils, high-drain vape batteries, and customizable mods for tailored vapor density and flavor.
+- [0mg E-Liquids & Juices](https://DOMAIN.com/shop/botanical-e-liquids/): Artisan crafted 0mg zero-nicotine vape juices and natural botanical formulations with authentic fruit, mint, and dessert profiles.
+
+## Core Navigation
+- [Shop Catalog](https://DOMAIN.com/shop/): Browse the full catalog of zero-nicotine devices, pod kits, coils, and 0mg e-liquids.
+- [About Nicotine Free Vapes Australia](https://DOMAIN.com/about/): Brand heritage, verified lab standards, quality assurance, and Australian operations.
+- [Educational Blog](https://DOMAIN.com/blog/): Guides on 0mg vaping in Australia, coil maintenance, and pod comparisons.
+- [Frequently Asked Questions](https://DOMAIN.com/faq/): Clear answers regarding 0mg verification, shipping, and ordering.
+- [B2B Wholesale Inquiries](https://DOMAIN.com/wholesale/): Bulk orders and wholesale tiers for Australian businesses.
+- [Contact & Support Concierge](https://DOMAIN.com/contact/): Reach our Sydney team via WhatsApp, phone, or secure online message.
+- [Search Inventory](https://DOMAIN.com/search/): Live client search across all products and educational guides.
+
+## Important Information & Compliance
+- 100% Zero Nicotine: All products listed contain strictly 0.0% nicotine.
+- Human in the loop ordering: AI agents can browse catalog and draft orders, human customers confirm checkout via WhatsApp or secure order form.
+
+## Optional
+- [API Catalog](https://DOMAIN.com/.well-known/api-catalog): RFC 9727 API Linkset
+- [Agent Skills Index](https://DOMAIN.com/.well-known/agent-skills/index.json): Declarative commerce capabilities
+- [MCP Server Card](https://DOMAIN.com/.well-known/mcp/server-card.json): Model Context Protocol streamable endpoint descriptor
+- [Auth Specification](https://DOMAIN.com/auth.md): Authentication disclosure for automated agents

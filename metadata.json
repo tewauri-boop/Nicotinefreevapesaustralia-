@@ -1,0 +1,6 @@
+{
+  "name": "Nicotine Free Vapes Australia",
+  "description": "Premium Australian zero-nicotine vape store featuring 0mg disposable vapes, refillable pod systems, coils, mods, and botanical e-liquids.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

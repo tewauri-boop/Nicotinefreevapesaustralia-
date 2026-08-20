@@ -1,0 +1,44 @@
+{
+  "protocol": {
+    "name": "acp",
+    "version": "0.1.0"
+  },
+  "name": "Nicotine Free Vapes Australia",
+  "description": "Nicotine Free Vapes Australia is the premier dedicated Australian boutique supplying lab-verified 0mg zero-nicotine disposable vaporizers, authentic Uwell and refillable pod devices, replacement coils, and pure botanical e-liquids with swift express dispatch across all states.",
+  "api_base_url": "https://DOMAIN.com",
+  "homepage": "https://DOMAIN.com",
+  "transports": [
+    "https"
+  ],
+  "capabilities": {
+    "services": [
+      "product-catalog",
+      "wholesale",
+      "blog",
+      "faq",
+      "mcp-server"
+    ],
+    "ordering": "human-assisted",
+    "payment_methods": [
+      "bank-transfer",
+      "crypto-BTC",
+      "crypto-USDT",
+      "payid",
+      "gift-cards"
+    ],
+    "currency": "AUD",
+    "minimum_order_usd": 200,
+    "free_shipping_threshold_usd": 0
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/61400000000",
+    "email": "support@DOMAIN.com"
+  },
+  "legal": {
+    "age_restriction": "Adults only (18+)",
+    "region": "Australia",
+    "ships_to": "Australia Nationwide",
+    "product_type": "0mg Zero-Nicotine Vaporizers & E-Liquids",
+    "compliance": "All formulas 100% nicotine-free"
+  }
+}

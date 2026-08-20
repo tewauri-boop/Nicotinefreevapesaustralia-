@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "name": "Nicotine Free Vapes Australia",
+  "url": "https://DOMAIN.com",
+  "description": "Premium Zero-Nicotine Vaporizers & Botanical Flavor Experiences in Australia",
+  "skills": [
+    {
+      "name": "search-products",
+      "type": "commerce",
+      "description": "Search zero-nicotine vapes, pod kits, coils, and e-liquids by keyword, category, or price",
+      "url": "https://DOMAIN.com/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "browse-catalog",
+      "type": "navigation",
+      "description": "Browse the full 0mg product catalog by category and subcategory",
+      "url": "https://DOMAIN.com/shop/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "order-draft",
+      "type": "commerce",
+      "description": "Create a prefilled order draft with 10% crypto discount calculation. Human completes the order.",
+      "url": "https://DOMAIN.com/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "wholesale-inquiry",
+      "type": "commerce",
+      "description": "Access Australian wholesale pricing tiers and bulk ordering requirements",
+      "url": "https://DOMAIN.com/wholesale/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "product-education",
+      "type": "content",
+      "description": "Read educational guides on 0mg vaping, coil longevity, and device maintenance in Australia",
+      "url": "https://DOMAIN.com/blog/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "contact",
+      "type": "support",
+      "description": "Direct contact concierge for product guidance, bank transfer, and order support",
+      "url": "https://DOMAIN.com/contact/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}
